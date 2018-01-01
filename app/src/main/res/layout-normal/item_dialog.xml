@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/colorBlue"
+        android:layout_below="@+id/pass_message"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/pass_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/password_et"
+        android:layout_alignStart="@+id/password_et"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="message"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:id="@+id/passCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show symbols"
+        android:theme="@style/MyCheckBox"
+        android:layout_below="@+id/password_et"
+        android:layout_alignLeft="@+id/password_et"
+        android:layout_alignStart="@+id/password_et" />
+
+</RelativeLayout>
