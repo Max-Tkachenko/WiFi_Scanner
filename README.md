@@ -1,2 +1,2 @@
 # WiFi_Scanner
-![alt text](screenshots/screenshot.png)
+![Image](screenshots/screenshot.png)
